@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Clickerfail!</h1>
+
+    <div class="left column">
+      <button id="clickMe">Click Me</button>
+      <div class="displayMoney"></div>
+    </div>
+    <div class="right column">
+      <div
+        class="item"
+        id="DoubleClick"
+        data-price="200"
+        data-price-buff="2"
+        data-click-buff="2"
+      ></div>
+      <div
+        class="item"
+        id="TripleClick"
+        data-price="300"
+        data-price-buff="3"
+        data-click-buff="3"
+      ></div>
+    </div>
+    <input type="range" id="cheat" min="0" max="1000000" value="0" />
+  </body>
+</html>

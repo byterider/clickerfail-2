@@ -1,0 +1,25 @@
+body {
+  background: white;
+  margin: 20px;
+  font-family: 'Gill Sans';
+}
+.column {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 49%;
+  height: 87%;
+  vertical-align: top;
+  padding: 20px;
+}
+.left {
+  background: #eef;
+}
+.right {
+  background: #eef;
+}
+.item {
+  padding: 0 10px 20px;
+}
+#cheat {
+  width: 98%;
+}
